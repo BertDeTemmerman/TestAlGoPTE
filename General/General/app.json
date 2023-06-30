@@ -10,7 +10,14 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "2c72a584-bdcc-4223-9227-1882663f97a2",
+      "name": "Base",
+      "publisher": "Bert",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "22.0.0.0",
   "application": "22.0.0.0",

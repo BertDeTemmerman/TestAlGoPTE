@@ -5,7 +5,14 @@
     },
     {
       "path": "General"
+    },
+    {
+      "path": "Base"
     }
   ],
-  "settings": {}
+  "settings": {
+    "al.packageCachePath": [
+      "../.alpackages"
+    ]
+  }
 }
