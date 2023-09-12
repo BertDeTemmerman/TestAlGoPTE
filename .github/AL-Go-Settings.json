@@ -2,14 +2,31 @@
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "githubrunner": "self-hosted",
-  "environments": ["QA"],
-  "CICDPushBranches": [ "main", "release/*", "feature/*", "UAT", "development" ],
-  "CICDPullRequestBranches": [ "main", "release/*", "feature/*", "UAT", "development" ],
-  "DeployToQA":  {
-        "Branches": [ "UAT", "main" ],
-        "EnvironmentName": "QA",
-        "Runs-on": "Windows-2019",
-        "SyncMode": "ForceSync"
+  "environments": [
+    "QA"
+  ],
+  "CICDPushBranches": [
+    "main",
+    "release/*",
+    "feature/*",
+    "UAT",
+    "development"
+  ],
+  "CICDPullRequestBranches": [
+    "main",
+    "release/*",
+    "feature/*",
+    "UAT",
+    "development"
+  ],
+  "DeployToQA": {
+    "Branches": [
+      "UAT",
+      "main"
+    ],
+    "EnvironmentName": "QA",
+    "Runs-on": "Windows-2019",
+    "SyncMode": "ForceSync"
   },
   "enableCodeCop": true,
   "enableUICop": true
