@@ -12,6 +12,5 @@
         "SyncMode": "ForceSync"
   },
   "enableCodeCop": true,
-  "enableUICop": true,
-  "failOn": "warning"
+  "enableUICop": true
 }
