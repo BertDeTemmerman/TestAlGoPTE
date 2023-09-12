@@ -11,9 +11,8 @@
         "Runs-on": "Windows-2019",
         "SyncMode": "ForceSync"
   },
-  "buildModes": ["Translated"],
+  "buildModes": [ "Translated" ],
   "enableCodeCop": true,
   "enableUICop": true,
-  "failOn": "warning",
-  
+  "failOn": "warning"
 }
