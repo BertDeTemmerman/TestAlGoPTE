@@ -3,8 +3,8 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "githubrunner": "self-hosted",
   "environments": ["QA"],
-  "CICDPushBranches": [ "main", "release/*", "feature/*", "UAT", "development" ]
-  "CICDPullRequestBranches": [ "main", "release/*", "feature/*", "UAT", "development" ]
+  "CICDPushBranches": [ "main", "release/*", "feature/*", "UAT", "development" ],
+  "CICDPullRequestBranches": [ "main", "release/*", "feature/*", "UAT", "development" ],
   "DeployToQA":  {
         "Branches": [ "UAT", "main" ],
         "EnvironmentName": "QA",
