@@ -12,7 +12,7 @@
         "SyncMode": "ForceSync"
   },
   "buildModes": [ "Translated" ],
-  "enableCodeCop": "true",
-  "enableUICop": "true",
+  "enableCodeCop": true,
+  "enableUICop": true,
   "failOn": "warning"
 }
