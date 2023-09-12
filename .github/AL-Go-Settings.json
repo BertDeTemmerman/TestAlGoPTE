@@ -1,5 +1,14 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "githubrunner": "self-hosted"
+  "githubrunner": "self-hosted",
+  "DeployToQA":  {
+        "Branches": [ "UAT", "main" ],
+        "EnvironmentName":  "QA",
+        "Projects": "*",
+        "Runs-on":  "Windows-2019"
+  },
+  "DeliverToStorage": {
+        "Branches": [ "UAT", "main" ]
+  }
 }
