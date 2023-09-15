@@ -18,7 +18,9 @@
   ],
   "enableCodeCop": true,
   "enableUICop": true,
-  "appFolders": [
-      "General"
+  "appDependencyProbingPaths": [
+    {
+      "repo": "TestAlGoPTE"
+    }
   ]
 }
