@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": ".alpackages"
+    },
+    {
       "path": ".AL-Go"
     },
     {
@@ -8,11 +11,37 @@
     },
     {
       "path": "Base"
+    },
+    {
+      "path": "Base.Test"
     }
   ],
   "settings": {
     "al.packageCachePath": [
       "../.alpackages"
-    ]
+    ],
+    "launch": {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "breakOnError": "ExcludeTry",
+          "breakOnRecordWrite": "None",
+          "enableLongRunningSqlStatements": true,
+          "enableSqlInformationDebugger": true,
+          "environmentName": "QA",
+          "environmentType": "Sandbox",
+          "launchBrowser": true,
+          "longRunningSqlStatementsThreshold": 500,
+          "name": "QA",
+          "numberOfSqlStatements": 10,
+          "request": "launch",
+          "schemaUpdateMode": "ForceSync",
+          "tenant": "36bd8dea-3ff2-437a-bbbc-9b0e2843bc26",
+          "type": "al"
+        },
+      ],
+      "compounds": []
+    },
+    "al.browser": "Chrome"
   }
 }

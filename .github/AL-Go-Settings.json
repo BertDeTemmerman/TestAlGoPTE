@@ -1,5 +1,21 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
-  "githubrunner": "self-hosted"
+  "githubrunner": "self-hosted",
+  "CICDPushBranches": [
+    "main",
+    "release/*",
+    "feature/*",
+    "UAT",
+    "development"
+  ],
+  "CICDPullRequestBranches": [
+    "main",
+    "release/*",
+    "feature/*",
+    "UAT",
+    "development"
+  ],
+  "enableCodeCop": true,
+  "enableUICop": true
 }
