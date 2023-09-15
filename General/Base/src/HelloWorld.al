@@ -5,7 +5,10 @@
 pageextension 50000 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
+    var
+        Publisher: Codeunit Publisher;
     begin
         Message('App published: Hello world');
+        Publisher.DoSomethingWithCustomer(Rec);
     end;
 }

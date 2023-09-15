@@ -2,7 +2,7 @@ codeunit 50000 Publisher
 {
 
     [IntegrationEvent(false, false)]
-    procedure Publisher(var Item: Record Item)
+    internal procedure DoSomethingWithCustomer(var Customer: Record Customer)
     begin
     end;
 }
