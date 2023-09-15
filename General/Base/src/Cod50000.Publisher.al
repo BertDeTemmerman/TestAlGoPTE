@@ -1,4 +1,4 @@
-codeunit 50100 Publisher
+codeunit 50000 Publisher
 {
 
     [IntegrationEvent(false, false)]
