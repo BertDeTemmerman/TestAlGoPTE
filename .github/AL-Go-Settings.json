@@ -17,10 +17,5 @@
     "development"
   ],
   "enableCodeCop": true,
-  "enableUICop": true,
-  "appDependencyProbingPaths": [
-    {
-      "repo": "TestAlGoPTE"
-    }
-  ]
+  "enableUICop": true
 }
