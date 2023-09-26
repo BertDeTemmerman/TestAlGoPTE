@@ -7,25 +7,25 @@
 			"path": ".alpackages"
 		},
 		{
-			"path": "Core/Core"
+			"path": "ProjectCore/ProjectCore"
 		},
 		{
-			"name": "Core .AL-Go",
-			"path": "Core/.AL-Go"
+			"name": "ProjectCore .AL-Go",
+			"path": "ProjectCore/.AL-Go"
 		},
 		{
-			"path": "Base/Base"
+			"path": "ProjectBase/ProjectBase"
 		},
 		{
-			"name": "Base .AL-Go",
-			"path": "Base/.AL-Go"
+			"name": "ProjectBase .AL-Go",
+			"path": "ProjectBase/.AL-Go"
 		},
 		{
-			"path": "PTE/PTE"
+			"path": "ProjectPTE/ProjectPTE"
 		},
 		{
-			"name": "PTE .AL-Go",
-			"path": "PTE/.AL-Go"
+			"name": "ProjectPTE .AL-Go",
+			"path": "ProjectPTE/.AL-Go"
 		}
 	],
 	"settings": {
