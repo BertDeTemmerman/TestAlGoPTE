@@ -1,5 +1,5 @@
 {
-    "folders": [
+	"folders": [
 		{
 			"path": ".alpackages"
 		},
@@ -7,16 +7,28 @@
 			"path": "Core/Core"
 		},
 		{
+			"name": "Core .AL-Go",
+			"path": "Core/.AL-Go"
+		},
+		{
 			"path": "Base/Base"
 		},
 		{
+			"name": "Base .AL-Go",
+			"path": "Base/.AL-Go"
+		},
+		{
 			"path": "PTE/PTE"
+		},
+		{
+			"name": "PTE .AL-Go",
+			"path": "PTE/.AL-Go"
 		}
 	],
-    "settings": {
-        "al.packageCachePath": [
-            "../.alpackages"
-        ],
-        "git.branchPrefix": "feature/"
-    }
+	"settings": {
+		"al.packageCachePath": [
+			"../.alpackages"
+		],
+		"git.branchPrefix": "feature/"
+	}
 }
