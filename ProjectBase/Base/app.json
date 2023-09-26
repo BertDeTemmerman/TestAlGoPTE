@@ -1,6 +1,6 @@
 {
-  "id": "9833504c-f1e1-4e99-8e03-17ff07b82c59",
-  "name": "Core",
+  "id": "d2ce7332-310a-484f-80f1-39bdbe380ead",
+  "name": "ProjectBase",
   "publisher": "Bert",
   "version": "1.0.0.0",
   "brief": "",
@@ -10,14 +10,21 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "9833504c-f1e1-4e99-8e03-17ff07b82c59",
+      "name": "ProjectCore",
+      "publisher": "Bert",
+      "version": "1.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "22.0.0.0",
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50200,
-      "to": 50210
+      "from": 50210,
+      "to": 50220
     }
   ],
   "resourceExposurePolicy": {
@@ -28,12 +35,5 @@
   "runtime": "11.0",
   "features": [
     "NoImplicitWith"
-  ],
-  "internalsVisibleTo": [
-    {
-      "id": "d2ce7332-310a-484f-80f1-39bdbe380ead",
-      "name": "Base",
-      "publisher": "Bert"
-    }
   ]
 }

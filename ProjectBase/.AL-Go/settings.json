@@ -1,7 +1,7 @@
 {
   "country": "us",
   "appFolders": [
-    "..\\Core\\Core"
+    "..\\ProjectCore\\ProjectCore"
   ],
   "testFolders": [],
   "bcptTestFolders": []
