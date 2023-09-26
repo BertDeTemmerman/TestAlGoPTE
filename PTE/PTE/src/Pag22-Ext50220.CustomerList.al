@@ -1,4 +1,4 @@
-pageextension 50120 CustomerList extends "Customer List" //22
+pageextension 50220 CustomerList extends "Customer List" //22
 {
     actions
     {
