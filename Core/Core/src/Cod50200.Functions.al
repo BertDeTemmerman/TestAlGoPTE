@@ -1,4 +1,4 @@
-codeunit 50100 Functions
+codeunit 50200 Functions
 {
     #region ShowMessage
     internal procedure ShowMessage(var Customer: Record Customer): Text[100]

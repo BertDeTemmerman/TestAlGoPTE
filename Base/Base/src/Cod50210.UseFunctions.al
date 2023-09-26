@@ -1,4 +1,4 @@
-codeunit 50110 UseFunctions
+codeunit 50210 UseFunctions
 {
     #region ShowMessage
     procedure ShowMessage(var Customer: Record Customer)
