@@ -8,4 +8,14 @@ codeunit 50110 UseFunctions
         Message(Functions.ShowMessage(Customer));
     end;
     #endregion ShowMessage
+
+    #region ChangeCustomer
+    procedure ChangeCustomer(var Customer: Record Customer; NewName2: Text)
+    var
+        Functions: Codeunit Functions;
+    begin
+        Functions.ChangeCustomer(Customer, NewName2);
+    end;
+    #endregion ChangeCustomer
+
 }
