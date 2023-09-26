@@ -1,0 +1,39 @@
+{
+  "id": "9833504c-f1e1-4e99-8e03-17ff07b82c59",
+  "name": "Core",
+  "publisher": "Bert",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50110
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "d2ce7332-310a-484f-80f1-39bdbe380ead",
+      "name": "Base",
+      "publisher": "Bert"
+    }
+  ]
+}

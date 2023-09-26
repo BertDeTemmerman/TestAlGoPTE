@@ -1,0 +1,22 @@
+{
+    "folders": [
+		{
+			"path": ".alpackages"
+		},
+		{
+			"path": "Core/Core"
+		},
+		{
+			"path": "Base/Base"
+		},
+		{
+			"path": "PTE/PTE"
+		}
+	],
+    "settings": {
+        "al.packageCachePath": [
+            "../.alpackages"
+        ],
+        "git.branchPrefix": "feature/"
+    }
+}

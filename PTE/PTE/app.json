@@ -1,0 +1,41 @@
+{
+  "id": "3c1e14fc-246f-4716-ad11-b97c58c2e146",
+  "name": "PTE",
+  "publisher": "Bert",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "d2ce7332-310a-484f-80f1-39bdbe380ead",
+      "name": "Base",
+      "publisher": "Bert",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50120,
+      "to": 50130
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile",
+    "NoPromotedActionProperties"
+  ]
+}
