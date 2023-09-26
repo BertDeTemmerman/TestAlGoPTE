@@ -1,6 +1,7 @@
 {
   "country": "us",
   "appFolders": [
+    "..\\Core\\Core",
     "..\\Base\\Base"
   ],
   "testFolders": [],
