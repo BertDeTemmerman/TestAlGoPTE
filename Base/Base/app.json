@@ -35,5 +35,6 @@
   "runtime": "11.0",
   "features": [
     "NoImplicitWith"
-  ]
+  ],
+  "propagateDependencies": true
 }
