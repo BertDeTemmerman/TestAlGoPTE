@@ -1,6 +1,6 @@
 {
-  "id": "efc04d75-852f-463e-8de9-8cfcca5c4a19",
-  "name": "General",
+  "id": "d2ce7332-310a-484f-80f1-39bdbe380ead",
+  "name": "ProjectBase",
   "publisher": "Bert",
   "version": "1.0.0.0",
   "brief": "",
@@ -12,8 +12,8 @@
   "logo": "",
   "dependencies": [
     {
-      "id": "2c72a584-bdcc-4223-9227-1882663f97a2",
-      "name": "Base",
+      "id": "9833504c-f1e1-4e99-8e03-17ff07b82c59",
+      "name": "ProjectCore",
       "publisher": "Bert",
       "version": "1.0.0.0"
     }
@@ -23,17 +23,17 @@
   "application": "22.0.0.0",
   "idRanges": [
     {
-      "from": 50050,
-      "to": 50060
+      "from": 50210,
+      "to": 50220
     }
-  ],
-  "features": [
-    "NoImplicitWith"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
   },
-  "runtime": "11.0"
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }

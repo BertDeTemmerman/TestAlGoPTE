@@ -6,8 +6,7 @@
     "main",
     "release/*",
     "feature/*",
-    "UAT",
-    "development"
+    "UAT"
   ],
   "CICDPullRequestBranches": [
     "main",
@@ -16,6 +15,17 @@
     "UAT",
     "development"
   ],
+  "ConditionalSettings": [
+    {
+      "branches": [
+        "development"
+      ],
+      "settings": {
+        "CICDSchedule": "5 * * * *"
+      }
+    }
+  ],  
   "enableCodeCop": true,
   "enableUICop": true
 }
+

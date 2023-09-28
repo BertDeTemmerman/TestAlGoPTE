@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": ".github"
+		},
+		{
+			"path": ".alpackages"
+		},
+		{
+			"path": "ProjectCore/ProjectCore"
+		},
+		{
+			"name": "ProjectCore .AL-Go",
+			"path": "ProjectCore/.AL-Go"
+		},
+		{
+			"path": "ProjectBase/ProjectBase"
+		},
+		{
+			"name": "ProjectBase .AL-Go",
+			"path": "ProjectBase/.AL-Go"
+		},
+		{
+			"path": "ProjectPTE/ProjectPTE"
+		},
+		{
+			"name": "ProjectPTE .AL-Go",
+			"path": "ProjectPTE/.AL-Go"
+		}
+	],
+	"settings": {
+		"al.packageCachePath": [
+			"../.alpackages"
+		],
+		"git.branchPrefix": "feature/"
+	}
+}

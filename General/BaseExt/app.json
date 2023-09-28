@@ -1,0 +1,39 @@
+{
+  "id": "efc04d75-852f-463e-8de9-8cfcca5c4a19",
+  "name": "BaseExt",
+  "publisher": "Bert",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "2c72a584-bdcc-4223-9227-1882663f97a2",
+      "name": "Base",
+      "publisher": "Bert",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50050,
+      "to": 50060
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "11.0"
+}
