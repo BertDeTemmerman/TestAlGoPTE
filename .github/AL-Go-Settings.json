@@ -6,8 +6,7 @@
     "main",
     "release/*",
     "feature/*",
-    "UAT",
-    "development"
+    "UAT"
   ],
   "CICDPullRequestBranches": [
     "main",
