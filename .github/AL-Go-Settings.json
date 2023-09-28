@@ -24,7 +24,7 @@
         "CICDSchedule": "5 * * * *"
       }
     }
-  ]  
+  ],  
   "enableCodeCop": true,
   "enableUICop": true
 }
