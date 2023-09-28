@@ -14,10 +14,19 @@ codeunit 50200 Functions
     end;
     #endregion ShowMessage2
 
+    #region ShowMessage3
+    internal procedure ShowMessage3(var Customer: Record Customer): Text[100]
+    begin
+        exit(Customer.Name);
+    end;
+    #endregion ShowMessage3
+
     #region ChangeCustomer
     internal procedure ChangeCustomer(var Customer: Record Customer; NewName: Text): Boolean
     begin
         Customer.Validate("Name 2", NewName);
     end;
     #endregion ChangeCustomer
+
+
 }
