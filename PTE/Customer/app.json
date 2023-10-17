@@ -1,0 +1,39 @@
+{
+  "id": "4a87d045-cf4c-4efc-b80a-34a5d11a3731",
+  "name": "Customer",
+  "publisher": "Bert",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "efc04d75-852f-463e-8de9-8cfcca5c4a19",
+      "name": "General",
+      "publisher": "Bert",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "22.0.0.0",
+  "application": "22.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
